@@ -1,0 +1,14 @@
+# configuracion local
+.env
+.env.*
+!.env.example
+
+# Archivos generados en tiempo de ejecucion
+*.db
+*.log
+
+# Caches y dependencias (superpuesto con app-vulnerable/.gitignore)
+__pycache__/
+*.pyc
+node_modules/
+dist/

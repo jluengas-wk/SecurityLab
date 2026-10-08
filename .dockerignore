@@ -1,0 +1,10 @@
+# Excluye del contexto todo lo que la imagen de la API no necesita
+.git
+.gitignore
+**/node_modules
+**/dist
+**/__pycache__
+**/*.pyc
+**/*.db
+**/*.log
+infraestructura/.env
